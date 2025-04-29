@@ -6,6 +6,7 @@ The purpose of this is to be a template for all the pages
  ***************************/
 
 console.log("Running t01_introduction.js");
+console.log("H");
 
 //Variables
 
