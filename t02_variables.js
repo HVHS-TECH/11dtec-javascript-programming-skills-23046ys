@@ -9,7 +9,7 @@ console.log("Running t02_variables.js");
 console.log("H");
 
 //Variables
-var Name= El;
+var Name= "El";
 var Age= 3;
 var PocketMoney= 20;
 console.log("Hi", Name)
