@@ -2,7 +2,7 @@
  Task-03 Math Equations
   Yuv Singh
   29/04/2025
-The purpose of this task is to  
+The purpose of this task is to learn how to do math in html 
  ***************************/
 
 console.log("Running t03_maths.js");
