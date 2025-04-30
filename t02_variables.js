@@ -2,7 +2,7 @@
  Task-02 Variables
   Yuv Singh
   30/04/2025
-The purpose of this is to 
+The purpose of this is to learn how to use variables
  ***************************/
 
 console.log("Running t02_variables.js");
