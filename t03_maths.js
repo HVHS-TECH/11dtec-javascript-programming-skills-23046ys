@@ -12,16 +12,16 @@ console.log("H");
 var Name= "El";
 var Age= 3;
 var PocketMoney= 20;
-console.log("Hi", Name)
-console.log("As of now you are", Age, "years old")
-console.log("You were born in", 2025 - Age)
-console.log("You have", PocketMoney, "dollars")
-console.log("Half of your money is", PocketMoney / 2)
 
 /****************************
 Main Code:
  ***************************/
 
+console.log("Hi", Name)
+console.log("As of now you are", Age, "years old")
+console.log("You were born in", 2025 - Age)
+console.log("You have", PocketMoney, "dollars")
+console.log("Half of your money is", PocketMoney / 2)
 
 /****************************
 Functions

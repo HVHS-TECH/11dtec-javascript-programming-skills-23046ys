@@ -12,13 +12,14 @@ console.log("H");
 var Name= "El";
 var Age= 3;
 var PocketMoney= 20;
-console.log("Hi", Name)
-console.log("As of now you are", Age, "years old")
-console.log("You have", PocketMoney, "dollars")
+
 /****************************
 Main Code:
  ***************************/
 
+console.log("Hi", Name)
+console.log("As of now you are", Age, "years old")
+console.log("You have", PocketMoney, "dollars")
 
 /****************************
 Functions
