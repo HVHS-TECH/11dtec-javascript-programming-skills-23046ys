@@ -6,7 +6,7 @@ The purpose of this task is to learn how to use variables
  ***************************/
 
 console.log("Running t02_variables.js");
-console.log("H");
+console.log("E");
 
 //Variables
 var Name= "El";
