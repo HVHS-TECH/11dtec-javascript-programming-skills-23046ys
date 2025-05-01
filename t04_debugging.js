@@ -1,7 +1,7 @@
 
 
 
-console.log("Task 4 - Debugging");
+console.log("Running t04_Debuggingjs");
 
 
 // Set up the size of the page.
