@@ -12,8 +12,8 @@ console.log("H");
 var UserNumber
 var total= 0;
 for (count = 0; count<5; count++) {
-    
-    total= total + count;
+    UserNumber= Number(prompt("Pick a Number"))
+    total= total + UserNumber;
 }
 console.log("Total: " + total)
 
