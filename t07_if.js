@@ -24,11 +24,11 @@ Age= prompt('Please enter your age', Age)
 PocketMoney= Number(prompt('How much money do you have?', PocketMoney))
 
 if (PocketMoney >= 20){
-    ChocolateAffordability= "You can afford two chocolate bars";
-} else if (PocketMoney >= 10) {
-    ChocolateAffordability= "You can afford a chocolate bar";
+    ChocolateAffordability= "You CAN afford TWO chocolate bars";
+} else if (PocketMoney >= 10){
+    ChocolateAffordability= "You CAN afford a chocolate bar";
 } else {
-    ChocolateAffordability= "You can't afford a chocolate bar";
+    ChocolateAffordability= "Sorry you CAN'T afford a chocolate bar";
 }
 
 alert("Hi " + Name + "! \nAs of now you are " + Age + " years old. \nYou were born in " + ( 2025 - Age ) + "\nYou have " + PocketMoney + " dollars. \nHalf of your money is " + (PocketMoney / 2) )
@@ -38,12 +38,14 @@ console.log("You were born in", 2025 - Age)
 console.log("You have", PocketMoney, "dollars")
 console.log("Half of your money is", PocketMoney / 2)
 
-alert(
-    "Hi " + Name + 
-)
+
 
 Choice= Number(prompt("On a scale of 0-3 how much do you like bread?"))
+
 alert(scaleArray[Choice]);
+
+alert("Hi " + Name + ".\nI predict you were born in " + (2025 - Age) + ".\nYou have " + PocketMoney + " dollars.\n" + ChocolateAffordability
+);
 
 /****************************
 Functions
