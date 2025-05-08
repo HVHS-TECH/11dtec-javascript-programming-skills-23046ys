@@ -16,6 +16,7 @@ for (count = 0; count<5; count++) {
     total= total + UserNumber;
 }
 console.log("Total: " + total)
+alert("The total of the five numbers you picked is " + total)
 
 /****************************
 Main Code:
