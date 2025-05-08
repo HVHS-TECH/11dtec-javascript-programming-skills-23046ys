@@ -12,7 +12,7 @@ console.log("H");
 
 var total= 0;
 for (count = 0; count<5; count++) {
-    console.log("Current count: " + count)
+    prompt()
     total= total + count;
 }
 console.log("Total: " + total)
