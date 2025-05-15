@@ -30,8 +30,8 @@ Name= prompt('Welcome to my program ' + Name + '!\nPlease enter your name', Name
 if (!isNaN(Name) || Name == null || Name == "" || Name == " "){
 ValidName= "Invalid";
 while( ValidName == "Invalid"){
-  Name= prompt('Invalid Name')
-  
+  Name= prompt('Invalid Name');
+
 }
 }
 }
