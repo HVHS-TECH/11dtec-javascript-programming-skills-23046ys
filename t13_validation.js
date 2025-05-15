@@ -31,7 +31,11 @@ if (!isNaN(Name) || Name == null || Name == "" || Name == " "){
 ValidName= "Invalid";
 while( ValidName == "Invalid"){
   Name= prompt('Invalid Name');
-
+if (!isNaN(Name) || Name == null || Name == "" || Name == " "){
+  Name= prompt('Invalid Name');
+} else {
+  ValidName= "Valid"
+}
 }
 }
 }
