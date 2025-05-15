@@ -32,7 +32,7 @@ ValidName= "Invalid";
 while( ValidName == "Invalid"){
   Name= prompt('Invalid Name');
 if (!isNaN(Name) || Name == null || Name == "" || Name == " "){
-  Name= prompt('Invalid Name');
+  alert("Invalid Name")
 } else {
   ValidName= "Valid"
 }
