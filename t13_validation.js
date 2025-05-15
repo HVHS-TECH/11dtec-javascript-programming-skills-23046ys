@@ -55,10 +55,9 @@ if (isNaN(Age) || Age == null || Age <= 0 || Age > 100 ){
 }
 }
 function askUserMoney() {
+  while(){
   PocketMoney= Number(prompt('How much money do you have?', PocketMoney))
-
-
-  
+  }
 if (PocketMoney >= 20){
     ChocolateAffordability= "You CAN afford TWO chocolate bars";
 } else if (PocketMoney >= 10){
