@@ -26,7 +26,9 @@ Functions
  ***************************/
 function askUserName() {
 Name= prompt('Welcome to my program ' + Name + '!\nPlease enter your name', Name);
-if (!isNaN(Name) || Name == null || Name == "" || Name == " "){}
+if (!isNaN(Name) || Name == null || Name == "" || Name == " "){
+  
+}
 }
 function askUserAge() {
 Age= prompt('Please enter your age', Age)
