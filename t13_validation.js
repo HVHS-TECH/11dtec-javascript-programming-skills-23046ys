@@ -17,6 +17,7 @@ var Name
 var PocketMoney
 var ChocolateAffordability
 var Age
+var ValidName
 /****************************
 Main Code:
  ***************************/
@@ -27,7 +28,10 @@ Functions
 function askUserName() {
 Name= prompt('Welcome to my program ' + Name + '!\nPlease enter your name', Name);
 if (!isNaN(Name) || Name == null || Name == "" || Name == " "){
+ValidName= "Invalid";
+while( ValidName == "Invalid"){
   
+}
 }
 }
 function askUserAge() {
