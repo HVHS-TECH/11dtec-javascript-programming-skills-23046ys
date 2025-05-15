@@ -67,14 +67,7 @@ if (PocketMoney >= 20){
 alert("Hi " + Name + ".\nI predict you were born in " + (2025 - Age) + ".\nYou have " + PocketMoney + " dollars.\n" + ChocolateAffordability
 );
 }
-function askUserNumbers() {
-  for (count = 0; count<5; count++) {
-    UserNumber= Number(prompt("Pick a Number"))
-    total= total + UserNumber;
-}
-console.log("Total: " + total)
-alert("The total of the five numbers you picked is " + total)
-}
+
 function programStart() {
     askUserName();
     askUserAge();
