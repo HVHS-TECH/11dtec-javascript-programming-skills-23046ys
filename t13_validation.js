@@ -55,9 +55,13 @@ if (isNaN(Age) || Age == null || Age <= 0 || Age > 100 ){
 }
 }
 function askUserMoney() {
-  while(){
+  
   PocketMoney= Number(prompt('How much money do you have?', PocketMoney))
+
+  while(isNaN(PocketMoney) || PocketMoney == null || PocketMoney < 0 || PocketMoney > 1000000 ){
+  PocketMoney= Number(prompt('Invalid Number'))
   }
+
 if (PocketMoney >= 20){
     ChocolateAffordability= "You CAN afford TWO chocolate bars";
 } else if (PocketMoney >= 10){
@@ -65,8 +69,7 @@ if (PocketMoney >= 20){
 } else {
     ChocolateAffordability= "Sorry you CAN'T afford a chocolate bar";
 }
-alert("Hi " + Name + ".\nI predict you were born in " + (2025 - Age) + ".\nYou have " + PocketMoney + " dollars.\n" + ChocolateAffordability
-);
+
 }
 
 function programStart() {
