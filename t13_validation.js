@@ -19,6 +19,7 @@ var ChocolateAffordability
 var Age
 var ValidName
 var ValidAge
+var ValidPocketMon
 /****************************
 Main Code:
  ***************************/
