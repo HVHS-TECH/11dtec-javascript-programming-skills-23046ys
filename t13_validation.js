@@ -60,10 +60,12 @@ function askUserMoney() {
   PocketMoney= Number(prompt('How much money do you have?', PocketMoney))
 
   if(isNaN(PocketMoney) || PocketMoney == null || PocketMoney < 0 || PocketMoney > 1000000 ){
-    
+    ValidPocketMon= "no";
   }
   
-  
+  if(ValidPocketMon="no"){
+    
+  }
 
 if (PocketMoney >= 20){
     ChocolateAffordability= "You CAN afford TWO chocolate bars";
