@@ -58,8 +58,8 @@ function askUserMoney() {
   
   PocketMoney= Number(prompt('How much money do you have?', PocketMoney))
 
-  while(isNaN(PocketMoney) || PocketMoney == null || PocketMoney < 0 || PocketMoney > 1000000 ){
-  PocketMoney= Number(prompt('Invalid Number'))
+  if(){
+    
   }
 
 if (PocketMoney >= 20){
