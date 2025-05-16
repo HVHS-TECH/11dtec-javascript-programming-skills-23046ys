@@ -61,11 +61,24 @@ function askUserMoney() {
 
   if(isNaN(PocketMoney) || PocketMoney == null || PocketMoney < 0 || PocketMoney > 1000000 ){
     ValidPocketMon= "no";
+    while(ValidPocketMon="no"){
+      if(isNaN(PocketMoney) || PocketMoney == null || PocketMoney < 0 || PocketMoney > 1000000 ){       
+      PocketMoney= Number(prompt('Invalid Number', PocketMoney))
+      }else{
+        ValidPocketMon= "Okay";
+      }
+    }
   }
   
-  if(ValidPocketMon="no"){
-    
-  }
+  
+    while(ValidPocketMon="no"){
+      if(isNaN(PocketMoney) || PocketMoney == null || PocketMoney < 0 || PocketMoney > 1000000 ){       
+      PocketMoney= Number(prompt('Invalid Number', PocketMoney))
+      }else{
+        ValidPocketMon= "Okay";
+      }
+    }
+  
 
 if (PocketMoney >= 20){
     ChocolateAffordability= "You CAN afford TWO chocolate bars";
