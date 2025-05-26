@@ -45,7 +45,7 @@ if (isNaN(Age) || Age == null || Age <= 0 || Age > 100 || Age == "" ){
 ValidAge= "Invalid";
 while( ValidAge == "Invalid"){
   Age= prompt('Invalid Age');
-if (isNaN(Age) || Age == null || Age <= 0 || Age > 100 ){
+if (isNaN(Age) || Age == null || Age <= 0 || Age > 100 || Age == "" ){
   alert("Invalid Age")
 } else {
   ValidAge= "Valid"
@@ -57,7 +57,7 @@ function askUserMoney() {
   
   PocketMoney= Number(prompt('How much money do you have from 1-5?', PocketMoney))
 
-  if(isNaN(PocketMoney) || PocketMoney == null || PocketMoney < 0 || PocketMoney > 5 ){
+  if(isNaN(PocketMoney) || PocketMoney == null || PocketMoney < 0 || PocketMoney > 5 || PocketMoney == "" ){
     while(isNaN(PocketMoney) || PocketMoney == null || PocketMoney < 0 || PocketMoney > 5 || PocketMoney == "" ){
           
       PocketMoney= Number(prompt('Invalid Number', PocketMoney))
