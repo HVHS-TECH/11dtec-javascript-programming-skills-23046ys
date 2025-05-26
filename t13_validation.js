@@ -84,12 +84,18 @@ function askUserMoney() {
 }
 
 function chocAfford() {
-  if (PocketMoney >= 20){
-    ChocolateAffordability= "You CAN afford TWO chocolate bars";
-} else if (PocketMoney >= 10){
-    ChocolateAffordability= "You CAN afford a chocolate bar";
+  if (PocketMoney = 5){
+    ChocolateAffordability= "You can afford a lindt block";
+} else if (PocketMoney = 4){
+    ChocolateAffordability= "You can afford a dairy milk block";
+} else if (PocketMoney = 3){
+    ChocolateAffordability= "You can afford a king size crunchy"
+} else if (PocketMoney = 2){
+    ChocolateAffordability= "You can afford a moro bar"
+} else if (PocketMoney = 1){
+    ChocolateAffordability= "You can afford a mars bar"
 } else {
-    ChocolateAffordability= "Sorry you CAN'T afford a chocolate bar";
+    ChocolateAffordability= "Sorry you cannot afford a chocolate bar";
 }
 }
 
@@ -98,4 +104,5 @@ function programStart() {
     askUserAge();
     askUserMoney();
     askUserNumbers();
+    chocAfford();
 }
