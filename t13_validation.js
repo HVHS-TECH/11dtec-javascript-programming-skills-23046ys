@@ -63,7 +63,7 @@ function askUserMoney() {
       PocketMoney= Number(prompt('Invalid Number', PocketMoney))
       
     }
-  } else {
+  } 
 if (PocketMoney <= 5){
     ChocolateAffordability <= "You can afford a lindt block";
 } else if (PocketMoney <= 4){
@@ -79,7 +79,7 @@ if (PocketMoney <= 5){
 }
 alert(ChocolateAffordability)
 
-  }
+  
   
   
 
