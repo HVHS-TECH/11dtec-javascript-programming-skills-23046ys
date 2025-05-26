@@ -71,7 +71,13 @@ function askUserMoney() {
   }
   
   
-    
+    while(ValidPocketMon="no"){
+      if(isNaN(PocketMoney) || PocketMoney == null || PocketMoney < 0 || PocketMoney > 5 ){       
+      PocketMoney= Number(prompt('Invalid Number', PocketMoney))
+      }else{
+        ValidPocketMon= "Okay";
+      }
+    }
   
 
 
