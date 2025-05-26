@@ -18,7 +18,6 @@ var ChocolateAffordability
 var Age
 var ValidName
 var ValidAge
-var ValidPocketMon
 /****************************
 Main Code:
  ***************************/
@@ -59,12 +58,10 @@ function askUserMoney() {
   PocketMoney= Number(prompt('How much money do you have from 1-5?', PocketMoney))
 
   if(isNaN(PocketMoney) || PocketMoney == null || PocketMoney < 0 || PocketMoney > 5 ){
-    ValidPocketMon= "no";
-    while(ValidPocketMon="no"){
+    while(isNaN(PocketMoney) || PocketMoney == null || PocketMoney < 0 || PocketMoney > 5 ){
       if(isNaN(PocketMoney) || PocketMoney == null || PocketMoney < 0 || PocketMoney > 5 ){       
       PocketMoney= Number(prompt('Invalid Number', PocketMoney))
       }else{
-        ValidPocketMon= "Okay";
       }
     }
   }
