@@ -58,29 +58,7 @@ if (isNaN(Age) || Age == null || Age <= 0 || Age > 100 ){
 function askUserMoney() {
   
   PocketMoney= Number(prompt('How much money do you have from 1-5?', PocketMoney))
-
-  if(isNaN(PocketMoney) || PocketMoney == null || PocketMoney < 0 || PocketMoney > 5 ){
-    ValidPocketMon= "no";
-    while(ValidPocketMon="no"){
-      if(isNaN(PocketMoney) || PocketMoney == null || PocketMoney < 0 || PocketMoney > 5 ){       
-      PocketMoney= Number(prompt('Invalid Number', PocketMoney))
-      }else{
-        ValidPocketMon= "Okay";
-      }
-    }
-  }
   
-  
-    while(ValidPocketMon="no"){
-      if(isNaN(PocketMoney) || PocketMoney == null || PocketMoney < 0 || PocketMoney > 5 ){       
-      PocketMoney= Number(prompt('Invalid Number', PocketMoney))
-      }else{
-        ValidPocketMon= "Okay";
-      }
-    }
-  
-
-
 }
 
 function chocAfford() {
