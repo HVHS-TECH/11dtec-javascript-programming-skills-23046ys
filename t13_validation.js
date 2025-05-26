@@ -59,9 +59,9 @@ function askUserMoney() {
 
   if(isNaN(PocketMoney) || PocketMoney == null || PocketMoney < 0 || PocketMoney > 5 ){
     while(isNaN(PocketMoney) || PocketMoney == null || PocketMoney < 0 || PocketMoney > 5 ){
-      if(isNaN(PocketMoney) || PocketMoney == null || PocketMoney < 0 || PocketMoney > 5 ){       
+          
       PocketMoney= Number(prompt('Invalid Number', PocketMoney))
-      }
+      
     }
   } else {
 if (PocketMoney <= 5){
