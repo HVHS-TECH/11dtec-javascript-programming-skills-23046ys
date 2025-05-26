@@ -11,8 +11,7 @@ console.log("Running t13_validation.js");
 console.log("H");
 
 //Variables
-var UserNumber
-var total= 0;
+
 var Name
 var PocketMoney
 var ChocolateAffordability
@@ -58,7 +57,7 @@ if (isNaN(Age) || Age == null || Age <= 0 || Age > 100 ){
 function askUserMoney() {
   
   PocketMoney= Number(prompt('How much money do you have from 1-5?', PocketMoney))
-  
+
 }
 
 function chocAfford() {
