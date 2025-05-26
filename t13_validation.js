@@ -70,16 +70,16 @@ function askUserMoney() {
   }
   
   
-if (PocketMoney = 5){
-    ChocolateAffordability= "You can afford a lindt block";
-} else if (PocketMoney = 4){
-    ChocolateAffordability= "You can afford a dairy milk block";
-} else if (PocketMoney = 3){
-    ChocolateAffordability= "You can afford a king size crunchy"
-} else if (PocketMoney = 2){
-    ChocolateAffordability= "You can afford a moro bar"
-} else if (PocketMoney = 1){
-    ChocolateAffordability= "You can afford a mars bar"
+if (PocketMoney <= 5){
+    ChocolateAffordability <= "You can afford a lindt block";
+} else if (PocketMoney <= 4){
+    ChocolateAffordability <= "You can afford a dairy milk block";
+} else if (PocketMoney <= 3){
+    ChocolateAffordability <= "You can afford a king size crunchy"
+} else if (PocketMoney <= 2){
+    ChocolateAffordability <= "You can afford a moro bar"
+} else if (PocketMoney <= 1){
+    ChocolateAffordability <= "You can afford a mars bar"
 } else {
     ChocolateAffordability= "Sorry you cannot afford a chocolate bar";
 }
