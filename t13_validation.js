@@ -80,14 +80,17 @@ function askUserMoney() {
     }
   
 
-if (PocketMoney >= 20){
+
+}
+
+function chocAfford() {
+  if (PocketMoney >= 20){
     ChocolateAffordability= "You CAN afford TWO chocolate bars";
 } else if (PocketMoney >= 10){
     ChocolateAffordability= "You CAN afford a chocolate bar";
 } else {
     ChocolateAffordability= "Sorry you CAN'T afford a chocolate bar";
 }
-
 }
 
 function programStart() {
