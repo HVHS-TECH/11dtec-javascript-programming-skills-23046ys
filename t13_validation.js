@@ -70,20 +70,7 @@ function askUserMoney() {
   }
   
   
-    while(ValidPocketMon="no"){
-      if(isNaN(PocketMoney) || PocketMoney == null || PocketMoney < 0 || PocketMoney > 5 ){       
-      PocketMoney= Number(prompt('Invalid Number', PocketMoney))
-      }else{
-        ValidPocketMon= "Okay";
-      }
-    }
-  
-
-
-}
-
-function chocAfford() {
-  if (PocketMoney = 5){
+if (PocketMoney = 5){
     ChocolateAffordability= "You can afford a lindt block";
 } else if (PocketMoney = 4){
     ChocolateAffordability= "You can afford a dairy milk block";
@@ -97,12 +84,14 @@ function chocAfford() {
     ChocolateAffordability= "Sorry you cannot afford a chocolate bar";
 }
 alert(ChocolateAffordability)
+
 }
+
+
 
 function programStart() {
     askUserName();
     askUserAge();
     askUserMoney();
     askUserNumbers();
-    chocAfford();
 }
