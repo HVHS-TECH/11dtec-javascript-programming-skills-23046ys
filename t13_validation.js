@@ -61,12 +61,9 @@ function askUserMoney() {
     while(isNaN(PocketMoney) || PocketMoney == null || PocketMoney < 0 || PocketMoney > 5 ){
       if(isNaN(PocketMoney) || PocketMoney == null || PocketMoney < 0 || PocketMoney > 5 ){       
       PocketMoney= Number(prompt('Invalid Number', PocketMoney))
-      }else{
       }
     }
-  }
-  
-  
+  } else {
 if (PocketMoney <= 5){
     ChocolateAffordability <= "You can afford a lindt block";
 } else if (PocketMoney <= 4){
@@ -81,6 +78,10 @@ if (PocketMoney <= 5){
     ChocolateAffordability= "Sorry you cannot afford a chocolate bar";
 }
 alert(ChocolateAffordability)
+
+  }
+  
+  
 
 }
 
