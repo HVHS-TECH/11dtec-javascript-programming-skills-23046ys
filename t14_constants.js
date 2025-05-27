@@ -11,6 +11,11 @@ console.log("Running t14_constants.js");
 console.log("H");
 
 //Variables
+const lindtBlock= 5;
+const dairyBlock= 4;
+const kingCrunch= 3;
+const moroBar= 2;
+const marioBar= 1;
 
 var Name
 var PocketMoney
@@ -64,15 +69,15 @@ function askUserMoney() {
       
     }
   } 
-if (PocketMoney <= 5){
+if (PocketMoney = lindtBlock){
     ChocolateAffordability= "You can afford a lindt block";
-} else if (PocketMoney <= 4){
+} else if (PocketMoney <= dairyBlock){
     ChocolateAffordability= "You can afford a dairy milk block";
-} else if (PocketMoney <= 3){
+} else if (PocketMoney <= kingCrunch){
     ChocolateAffordability= "You can afford a king size crunchy"
-} else if (PocketMoney <= 2){
+} else if (PocketMoney <= moroBar){
     ChocolateAffordability= "You can afford a moro bar"
-} else if (PocketMoney <= 1){
+} else if (PocketMoney <= marioBar){
     ChocolateAffordability= "You can afford a mars bar"
 } else {
     ChocolateAffordability= "Sorry you cannot afford a chocolate bar";
