@@ -71,25 +71,6 @@ function askUserMoney() {
       
     }
   } 
-if (PocketMoney = lindtBlock){
-    ChocolateAffordability= "You can afford a lindt block";
-} else if (PocketMoney <= dairyBlock){
-    ChocolateAffordability= "You can afford a dairy milk block";
-} else if (PocketMoney <= kingCrunch){
-    ChocolateAffordability= "You can afford a king size crunchy"
-} else if (PocketMoney <= moroBar){
-    ChocolateAffordability= "You can afford a moro bar"
-} else if (PocketMoney <= marioBar){
-    ChocolateAffordability= "You can afford a mars bar"
-} else {
-    ChocolateAffordability= "Sorry you cannot afford a chocolate bar";
-}
-alert(ChocolateAffordability)
-
-  
-  
-  
-
 }
 
 
