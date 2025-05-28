@@ -23,7 +23,7 @@ var ChocolateAffordability
 var Age
 var ValidName
 var ValidAge
-let chocArray = []
+let chocArray = ["Mars Bar", "Moro Bar", "King Size Crunchy", "Dairy Milk Block", "Lindt Block"]
 let priceArray = []
 /****************************
 Main Code:
