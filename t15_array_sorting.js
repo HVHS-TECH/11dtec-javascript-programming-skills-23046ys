@@ -23,6 +23,7 @@ var ChocolateAffordability
 var Age
 var ValidName
 var ValidAge
+let chocRay
 /****************************
 Main Code:
  ***************************/
