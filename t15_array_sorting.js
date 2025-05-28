@@ -23,7 +23,8 @@ var ChocolateAffordability
 var Age
 var ValidName
 var ValidAge
-let chocRay = 
+let chocArray = []
+let priceArray = []
 /****************************
 Main Code:
  ***************************/
