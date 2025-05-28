@@ -64,13 +64,14 @@ function askUserMoney() {
   
   PocketMoney= Number(prompt('How much money do you have from 1-5?', PocketMoney))
 
-  if(isNaN(PocketMoney) || PocketMoney == null || PocketMoney < 0 || PocketMoney > 5 || PocketMoney == "" ){
-    while(isNaN(PocketMoney) || PocketMoney == null || PocketMoney < 0 || PocketMoney > 5 || PocketMoney == "" ){
+  if(isNaN(PocketMoney) || PocketMoney == null || PocketMoney < 0 || PocketMoney > 10 || PocketMoney == "" ){
+    while(isNaN(PocketMoney) || PocketMoney == null || PocketMoney < 0 || PocketMoney > 10 || PocketMoney == "" ){
           
       PocketMoney= Number(prompt('Invalid Number', PocketMoney))
       
     }
   } 
+
 }
 
 
