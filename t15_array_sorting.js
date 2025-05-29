@@ -82,7 +82,11 @@ ChocolateAffordability= 1;
 }
 if(ChocolateAffordability > 0){
   alert("You can afford " + chocArray[ChocolateAffordability] + " for the price of $" + priceArray[ChocolateAffordability])
-}else{"You can't afford anything."}
+  console.log("Afford");
+}else{
+  alert("You can't afford anything.")
+  console.log("Not afford");
+}
 }
 
 
