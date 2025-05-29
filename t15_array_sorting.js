@@ -20,7 +20,7 @@ var Age
 var ValidName
 var ValidAge
 let chocArray = ["Mars Bar", "Moro Bar", "King Size Crunchy", "Dairy Milk Block", "Lindt Block"]
-let priceArray = [2, 2.50, 3, 6, 7]
+let priceArray = [2,2.50,3,6,7]
 /****************************
 Main Code:
  ***************************/
