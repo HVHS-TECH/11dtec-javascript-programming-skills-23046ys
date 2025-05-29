@@ -69,16 +69,22 @@ function askUserMoney() {
   } 
 if(PocketMoney >= priceArray[5]){
 ChocolateAffordability= 5;
+console.log(ChocolateAffordability);
 }else if(PocketMoney >= priceArray[4]){
 ChocolateAffordability= 4;
+console.log(ChocolateAffordability);
 }else if(PocketMoney >= priceArray[3]){
 ChocolateAffordability= 3;
+console.log(ChocolateAffordability);
 }else if(PocketMoney >= priceArray[2]){
 ChocolateAffordability= 2;
+console.log(ChocolateAffordability);
 }else if(PocketMoney >= priceArray[1]){
 ChocolateAffordability= 1;
+console.log(ChocolateAffordability);
 }else{
   ChocolateAffordability= 0;
+  console.log(ChocolateAffordability);
 }
 if(ChocolateAffordability > 0){
   alert("You can afford " + chocArray[ChocolateAffordability] + " for the price of $" + priceArray[ChocolateAffordability])
