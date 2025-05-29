@@ -72,7 +72,15 @@ function askUserMoney() {
     }
   } 
 if(PocketMoney >= priceArray[5]){
-ChocolateAffordability
+ChocolateAffordability= 5;
+}else if(PocketMoney >= priceArray[4]){
+ChocolateAffordability= 4;
+}else if(PocketMoney >= priceArray[3]){
+ChocolateAffordability= 3;
+}else if(PocketMoney >= priceArray[2]){
+ChocolateAffordability= 2;
+}else if(PocketMoney >= priceArray[1]){
+ChocolateAffordability= 1;
 }
 }
 
