@@ -102,5 +102,4 @@ function programStart() {
     askUserName();
     askUserAge();
     askUserMoney();
-    askUserNumbers();
 }
