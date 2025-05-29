@@ -15,7 +15,7 @@ console.log("H");
 
 var Name
 var PocketMoney
-var ChocolateAffordability
+var ChocolateAffordability=0;
 var Age
 var ValidName
 var ValidAge
@@ -77,12 +77,12 @@ ChocolateAffordability= 3;
 ChocolateAffordability= 2;
 }else if(PocketMoney >= priceArray[1]){
 ChocolateAffordability= 1;
-}
-if(ChocolateAffordability= null){
-alert("You can't afford anything.")
 }else{
-  alert("You can afford " + chocArray[ChocolateAffordability] + " for the price of $" + priceArray[ChocolateAffordability])
+  ChocolateAffordability= 0;
 }
+if(ChocolateAffordability > 0){
+  alert("You can afford " + chocArray[ChocolateAffordability] + " for the price of $" + priceArray[ChocolateAffordability])
+}else{"You can't afford anything."}
 }
 
 
