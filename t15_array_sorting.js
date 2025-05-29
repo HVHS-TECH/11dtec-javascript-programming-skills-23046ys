@@ -11,11 +11,7 @@ console.log("Running t15_array_sorting.js");
 console.log("H");
 
 //Variables
-const lindtBlock= 5;
-const dairyBlock= 4;
-const kingCrunch= 3;
-const moroBar= 2;
-const marioBar= 1;
+
 
 var Name
 var PocketMoney
@@ -81,6 +77,11 @@ ChocolateAffordability= 3;
 ChocolateAffordability= 2;
 }else if(PocketMoney >= priceArray[1]){
 ChocolateAffordability= 1;
+}
+if(ChocolateAffordability= null){
+alert("You can't afford anything.")
+}else{
+  alert("You can afford " + chocArray[ChocolateAffordability] + " for the price of $" + priceArray[ChocolateAffordability])
 }
 }
 
