@@ -62,7 +62,7 @@ if (isNaN(Age) || Age == null || Age <= 0 || Age > 100 || Age == "" ){
 }
 function askUserMoney() {
   
-  PocketMoney= Number(prompt('How much money do you have from 1-5?', PocketMoney))
+  PocketMoney= Number(prompt('How much money do you have from 1-10?', PocketMoney))
 
   if(isNaN(PocketMoney) || PocketMoney == null || PocketMoney < 0 || PocketMoney > 10 || PocketMoney == "" ){
     while(isNaN(PocketMoney) || PocketMoney == null || PocketMoney < 0 || PocketMoney > 10 || PocketMoney == "" ){
@@ -71,7 +71,9 @@ function askUserMoney() {
       
     }
   } 
+if(PocketMoney >= priceArray[5]){
 
+}
 }
 
 
