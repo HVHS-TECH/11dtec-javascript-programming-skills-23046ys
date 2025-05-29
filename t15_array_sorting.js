@@ -72,7 +72,7 @@ function askUserMoney() {
     }
   } 
 if(PocketMoney >= priceArray[5]){
-
+ChocolateAffordability
 }
 }
 
