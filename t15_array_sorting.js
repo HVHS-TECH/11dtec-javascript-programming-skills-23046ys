@@ -5,7 +5,7 @@
 The purpose of this is 
  ***************************/
 
-const { startTransition } = require("react");
+
 
 console.log("Running t15_array_sorting.js");
 console.log("H");
@@ -67,6 +67,7 @@ function askUserMoney() {
       
     }
   } 
+  
 if(PocketMoney >= priceArray[5]){
 ChocolateAffordability= 5;
 console.log(ChocolateAffordability);
@@ -87,7 +88,7 @@ console.log(ChocolateAffordability);
   console.log(ChocolateAffordability);
 }
 if(ChocolateAffordability > 0){
-  alert("You can afford " + chocArray[ChocolateAffordability] + " for the price of $" + priceArray[ChocolateAffordability])
+  alert("You can afford a " + chocArray[ChocolateAffordability] + " for the price of $" + priceArray[ChocolateAffordability])
   console.log("Afford");
 }else{
   alert("You can't afford anything.")
