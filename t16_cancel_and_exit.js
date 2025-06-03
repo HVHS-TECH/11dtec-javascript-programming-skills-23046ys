@@ -77,10 +77,8 @@ function askUserMoney() {
 }
  
   if(isNaN(PocketMoney) || PocketMoney < 0 || PocketMoney > 10 || PocketMoney == "" ){
-   if(PocketMoney == null){
- return;
-}
-    while(isNaN(PocketMoney) || PocketMoney < 0 || PocketMoney > 10 || PocketMoney == "" ){
+   ValidPocket= "Invalid";
+    while(ValidPocket == "Invalid"){
           
       PocketMoney= Number(prompt('Invalid Number', PocketMoney))
       if(PocketMoney == null){
