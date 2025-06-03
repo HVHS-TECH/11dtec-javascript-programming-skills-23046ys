@@ -84,6 +84,16 @@ function askUserMoney() {
       if(PocketMoney == null){
  return;
 }
+if(isNaN(PocketMoney) || PocketMoney < 0 || PocketMoney > 10 || PocketMoney == "" ){
+alert("Invalid Pocket Money");
+}else{
+  ValidPocket="Valid"
+  if(PocketMoney == null){
+    return;
+  }
+}
+
+
     }
   } 
   
