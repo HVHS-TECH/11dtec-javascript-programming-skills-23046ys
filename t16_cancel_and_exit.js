@@ -71,7 +71,7 @@ if (isNaN(Age) || Age <= 0 || Age > 100 || Age == "" ){
 }
 function askUserMoney() {
   
-  PocketMoney= Number(prompt('How much money do you have from 1-10?', PocketMoney))
+  PocketMoney= prompt('How much money do you have from 1-10?', PocketMoney)
   if(PocketMoney == null){
  return;
 }
@@ -80,7 +80,7 @@ function askUserMoney() {
    ValidPocket= "Invalid";
     while(ValidPocket == "Invalid"){
           
-      PocketMoney= Number(prompt('Invalid Number', PocketMoney))
+      PocketMoney= prompt('Invalid Number', PocketMoney)
       if(PocketMoney == null){
  return;
 }
