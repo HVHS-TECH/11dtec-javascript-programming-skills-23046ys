@@ -19,6 +19,7 @@ var ChocolateAffordability=0;
 var Age
 var ValidName
 var ValidAge
+var ValidPocket
 let chocArray = ["Mars Bar", "Moro Bar", "King Size Crunchy", "Dairy Milk Block", "Lindt Block"]
 let priceArray = [2,2.50,3,6,7]
 /****************************
